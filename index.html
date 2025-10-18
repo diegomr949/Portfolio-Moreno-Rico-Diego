@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/foto de perfil.jpeg">
+    
+    <script src="js/main.js" defer></script>
+    
+    <title>Diego Moreno Rico - Desarrollador de Software</title>
+</head>
+
+<body>
+
+    <header class="main-header">
+        <nav class="container">
+            <a href="#" class="logo">DMR</a>
+            
+            <ul class="nav-links">
+                <li><a href="#about-me">Sobre Mí</a></li>
+                <li><a href="#services">Qué Hago</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+            </ul>
+            
+            <button class="mobile-nav-toggle" aria-label="Abrir menú">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <div class="content-wrapper">
+        <main class="container">
+
+            <aside>
+                <div class="sidebar-widget text-center">
+                    <img class="fotoCV" src="images/foto de perfil.jpeg" alt="Foto de perfil de Diego Moreno Rico">
+                </div>
+
+                <div class="sidebar-widget">
+                    <h2>Contacto</h2>
+                    <ul class="contacto">
+                        <li>
+                            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                            <a href="mailto:diegomr949@gmail.com">diegomr949@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                            <a href="https://wa.me/5492615892555" target="_blank" rel="noopener noreferrer">2615892555</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                            Mendoza, Argentina
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                            <a href="https://www.linkedin.com/in/diego-emilio-moreno-rico/" target="_blank" rel="noopener noreferrer">
+                                LinkedIn
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h2>Habilidades Técnicas</h2>
+                    <table class="tech-table">
+                        <thead>
+                            <tr>
+                                <th>Tecnología</th>
+                                <th>Nivel</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Java</td>
+                                <td>Avanzado</td>
+                            </tr>
+                            <tr>
+                                <td>Spring Boot</td>
+                                <td>Avanzado</td>
+                            </tr>
+                            <tr>
+                                <td>JavaScript</td>
+                                <td>Intermedio</td>
+                            </tr>
+                            <tr>
+                                <td>HTML</td>
+                                <td>Avanzado</td>
+                            </tr>
+                            <tr>
+                                <td>CSS</td>
+                                <td>Intermedio</td>
+                            </tr>
+                            <tr>
+                                <td>SQL</td>
+                                <td>Avanzado</td>
+                            </tr>
+                            <tr>
+                                <td>Git/Github</td>
+                                <td>Avanzado</td>
+                            </tr>
+                            <tr>
+                                <td>Android (Java)</td>
+                                <td>Junior</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h2>Idiomas</h2>
+                    <ul class="idiomas-list">
+                        <li>Español: Nativo</li>
+                        <li>Inglés: Intermedio</li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <h2>Softskills</h2>
+                    <ul class="softskills-list">
+                        <li>Creatividad</li>
+                        <li>Proactividad</li>
+                        <li>Comunicación efectiva</li>
+                        <li>Atención al detalle</li>
+                        <li>Colaboración y trabajo en equipo</li>
+                        <li>Aprendizaje continuo</li>
+                        <li>Resolución de problemas</li>
+                    </ul>
+                </div>
+
+            </aside>
+
+            <section class="main-content">
+                
+                <section class="hero">
+                    <h1>Diego Moreno Rico</h1>
+                    <p class="subtitle">Desarrollador Backend Java | Estudiante Frontend</p>
+                </section>
+
+                <section id="about-me" class="content-section">
+                    <h2>Sobre Mí</h2>
+                    <p>
+                        Desarrollador Backend especializado en Java, con un enfoque sólido en el desarrollo de API REST, modelado de datos y aplicación de patrones de diseño, utilizando Spring Boot como framework principal. 
+                        Actualmente ampliando mis habilidades en el desarrollo Frontend (HTML, CSS, JS) y aplicaciones móviles con Android Studio.
+                    </p>
+                    <p>
+                        Mi formación técnica, junto con la experiencia práctica en proyectos reales, me ha permitido consolidar una base robusta en programación orientada a objetos, arquitectura cliente-servidor y gestión eficiente de bases de datos SQL.
+                    </p>
+                </section>
+                
+                <section id="services" class="content-section">
+                    <h2>Qué Hago</h2>
+                    <div class="services-grid">
+                        <article class="service-card">
+                            <i class="fa-solid fa-server"></i>
+                            <h3>Desarrollo Backend</h3>
+                            <p>Creación de APIs REST robustas y escalables con Java y Spring Boot, listas para conectarse a cualquier frontend.</p>
+                        </article>
+                        <article class="service-card">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Desarrollo Frontend</h3>
+                            <p>Diseño de interfaces web responsivas y dinámicas, enfocadas en la experiencia de usuario (UX/UI).</p>
+                        </article>
+                        <article class="service-card">
+                            <i class="fa-solid fa-database"></i>
+                            <h3>Gestión de Datos</h3>
+                            <p>Modelado y administración de bases de datos SQL, asegurando la integridad y eficiencia de la información.</p>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="experience" class="content-section">
+                    <h2>Experiencia</h2>
+                    <article class="job">
+                        <div class="job-header">
+                            <h3>Soporte IT</h3>
+                            <p class="job-date">Enero 2024</p>
+                        </div>
+                        <p class="job-company">Consejo Profesional de Ciencias Económicas Mendoza</p>
+                        <ul>
+                            <li>Resolución de incidencias técnicas en la página web institucional (HTML, CSS, JavaScript).</li>
+                            <li>Implementación de un simulador de aranceles interactivo.</li>
+                        </ul>
+                    </article>
+                    </section>
+                
+                <section id="projects" class="content-section">
+                    <h2>Proyectos</h2>
+                    <div class="projects-grid">
+                        
+                        <article class="project-card">
+                            <h3>“Capacitaciones en IA” - CPCE Mendoza</h3>
+                            <p>Micrositio institucional responsive desarrollado con HTML, JavaScript y Tailwind CSS.</p>
+                            <a href="https://cpce-mendoza.github.io/capacitacionIA/index.html" class="project-link" target="_blank" rel="noopener noreferrer">
+                                Ver proyecto <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </article>
+                        
+                        <article class="project-card">
+                            <h3>Simulador Aranceles CPCE Mendoza</h3>
+                            <p>Aplicación web interactiva para calcular aranceles de legalización de trámites.</p>
+                            <a href="https://cpce-mendoza.github.io/calculadora-Arancel/" class="project-link" target="_blank" rel="noopener noreferrer">
+                                Ver proyecto <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </article>
+                        
+                        <article class="project-card">
+                            <h3>Challenge-encriptador</h3>
+                            <p>Herramienta de encriptación interactiva con HTML, CSS y JavaScript puro.</p>
+                            <a href="https://github.com/diegomr949/challenge-encriptador" class="project-link" target="_blank" rel="noopener noreferrer">
+                                Ver en GitHub <i class="fa-brands fa-github"></i>
+                            </a>
+                        </article>
+
+                        <article class="project-card">
+                            <h3>Conversor de monedas (Backend)</h3>
+                            <p>Proyecto Java que consume una API de tasas de cambio para conversiones en tiempo real.</p>
+                            <a href="https://github.com/diegomr949/conversor-monedas" class="project-link" target="_blank" rel="noopener noreferrer">
+                                Ver en GitHub <i class="fa-brands fa-github"></i>
+                            </a>
+                        </article>
+
+                        <article class="project-card">
+                            <h3>Screenmatch (Backend)</h3>
+                            <p>Aplicación de gestión de películas usando Java, Spring Boot y bases de datos SQL.</p>
+                            <a href="https://github.com/diegomr949/screenmatch" class="project-link" target="_blank" rel="noopener noreferrer">
+                                Ver en GitHub <i class="fa-brands fa-github"></i>
+                            </a>
+                        </article>
+
+                    </div>
+                </section>
+
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
